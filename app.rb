@@ -5,7 +5,6 @@ require 'dotenv'
 require 'cloudinary'
 require 'cloudinary/uploader'
 require 'cloudinary/utils'
-require 'securerandom'
 
 Dotenv.load
 Cloudinary.config do |config|
